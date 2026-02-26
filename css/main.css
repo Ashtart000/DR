@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+/*Base*/
+@import "/css/base/reset.css";
+@import "/css/base/vars.css";
+@import "/css/base/base.css";
+
+/*Blocks*/
+@import "/css/blocks/hero.css";
+@import "/css/blocks/nav.css";
+@import "/css/blocks/pref.css";
+@import "/css/blocks/photo.css";
+@import "/css/blocks/infra.css";
+@import "/css/blocks/about.css";
+@import "/css/blocks/flats.css";
+@import "/css/blocks/map.css";
+@import "/css/blocks/contacts.css";
+
+
+.footer {
+    width: 100%;
+    height: 80px;
+    background-color: var(--background-color-2);
+}
+
+/* .location__img__wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.location__img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.location__img__wrapper::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background:
+        linear-gradient(to top, #242B33 0%, rgba(36,43,51,0) 20%),
+        linear-gradient(to bottom, #242B33 0%, rgba(36,43,51,0) 20%),
+        linear-gradient(to right, #242B33 0%, rgba(36,43,51,0) 15%),
+        linear-gradient(to left, #242B33 0%, rgba(36,43,51,0) 15%);
+} */
+
+

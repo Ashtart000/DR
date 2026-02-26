@@ -1,0 +1,17 @@
+:root {
+    --primary-color: ;
+    --secondary-color: ;
+    --text-nav-color: #FFFFFF;
+    --text-color: #FFFFFF;
+    --subtext-color: #a1c9bf;
+    --background-color-1: #242B33;
+    --background-color-2: #2D343C;
+    --subtext-gradient: linear-gradient(
+    45deg,
+    #42A4C7 0%,
+    #02C196 100%
+    );
+
+
+    --font-family: "Rubik", sans-serif;
+}

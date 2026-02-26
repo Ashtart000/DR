@@ -1,0 +1,101 @@
+.hero {
+  position: relative;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+background: linear-gradient(
+  to bottom,
+  #242B33 0%,
+  rgba(36, 43, 51, 0.95) 10%,
+  rgba(45, 52, 60, 0.35) 40%,
+  rgba(90, 100, 115, 0.22) 50%,
+  rgba(45, 52, 60, 0.35) 60%,
+  rgba(36, 43, 51, 0.95) 90%,
+  #242B33 100%
+);
+
+/* background: linear-gradient( 
+    to bottom, 
+    rgba(36, 43, 51, 0.97) 0%, 
+    rgba(45, 52, 60, 0.75) 25%, 
+    rgba(45, 52, 60, 0.22) 40%, 
+    rgba(45, 52, 60, 0.22) 60%, 
+    rgba(45, 52, 60, 0.75) 75%, 
+    rgba(36, 43, 51, 0.97) 100% 
+    ); */
+}
+
+
+.hero__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+    height: 660px;
+    gap: 25px;
+    text-align: center;
+    margin-top: 20px;
+    color: var(--text-color);
+    /* background: var(--subtext-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+.hero__text > :last-child {
+    margin-top: auto;
+}
+
+h1, hero__subtext {
+    font-size: 52px;
+    font-weight: 600;  
+}
+
+h2, hero__subtext {
+    font-size: 35px;
+    font-weight: 500;   
+}
+
+h3, hero__subtext {
+    font-size: 30px;
+    font-weight: 500;   
+}
+
+.hero__location {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__location >:first-child {
+    padding-bottom: 10px;    
+}
+
+.hero__subtext:first-child {
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.hero__subtext:first-child::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(45deg, #42A4C7, #02C196);
+}
