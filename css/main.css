@@ -1,20 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
 /*Base*/
-@import "/css/base/reset.css";
-@import "/css/base/vars.css";
-@import "/css/base/base.css";
+@import "./base/reset.css";
+@import "./base/vars.css";
+@import "./base/base.css";
 
 /*Blocks*/
-@import "/css/blocks/hero.css";
-@import "/css/blocks/nav.css";
-@import "/css/blocks/pref.css";
-@import "/css/blocks/photo.css";
-@import "/css/blocks/infra.css";
-@import "/css/blocks/about.css";
-@import "/css/blocks/flats.css";
-@import "/css/blocks/map.css";
-@import "/css/blocks/contacts.css";
+@import "./blocks/hero.css";
+@import "./blocks/nav.css";
+@import "./blocks/pref.css";
+@import "./blocks/photo.css";
+@import "./blocks/infra.css";
+@import "./blocks/about.css";
+@import "./blocks/flats.css";
+@import "./blocks/map.css";
+@import "./blocks/contacts.css";
 
 
 .footer {
